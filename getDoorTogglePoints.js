@@ -1,6 +1,7 @@
 export default (door)=>{
+  const result = [1]
   if(door > 1){
-    return [1,door]
+    result.push(door)
   }
-  return [1]
+  return result
 }
