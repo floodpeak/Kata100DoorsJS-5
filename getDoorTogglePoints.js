@@ -1,5 +1,5 @@
 export default (door)=>{
-  if(door === 2 || door === 3){
+  if(door > 1){
     return [1,door]
   }
   return [1]
